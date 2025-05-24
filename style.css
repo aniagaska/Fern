@@ -358,20 +358,23 @@ html {
 }
 
 body {
-  margin: 2rem;
+  margin: 1rem;
   background-color: #2D441F;
 }
 
 main {
   max-width: 90%;
+  /* margin: 0 auto; */
 }
 
 p {
   font-style: italic;
+  padding-left: 1rem;
 }
 
 h1 {
-  font-size 2rem;
+  font-size 4rem;
+  padding-left: 1rem;
 }
 
 p {
@@ -381,4 +384,8 @@ p {
 img {
   max-width: 100%;
   margin: 1rem;
+}
+
+footer {
+  padding-left: 1rem;
 }
