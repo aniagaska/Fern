@@ -5,9 +5,9 @@
   
     window.addEventListener('load', function handleLoad() {
       const imagePaths = [
-        '/Fern/images/vet-1.png',
-        '/Fern/images/vet-2.png',
-        '/Fern/images/vet-3.png',
+        '/images/eyebrows.png',
+        '/images/eyes.png',
+        '/images/snoot.png',
       ];
   
       const randomImagePath = imagePaths[Math.floor(Math.random() * imagePaths.length)];
