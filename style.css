@@ -352,12 +352,33 @@
   
   /* Start
        ========================================================================== */
-  .image {
-min-width: 100%;
-border-style: dotted;
-  }
+html {
+  font-size: 20px;
+  color: white;
+}
 
-  .dynamic {
-min-width: 100%;
-border-style: dashed;
-  }
+body {
+  margin: 2rem;
+  background-color: #2D441F;
+}
+
+main {
+  max-width: 90%;
+}
+
+p {
+  font-style: italic;
+}
+
+h1 {
+  font-size 2rem;
+}
+
+p {
+  line-height: 1.25;
+}
+
+img {
+  max-width: 100%;
+  margin: 1rem;
+}
